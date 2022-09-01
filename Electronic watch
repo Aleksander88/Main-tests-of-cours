@@ -1,0 +1,5 @@
+a=int(input())
+h=(a//3600)%24
+m=(a//60)%60
+s=a%60
+print(str(h),str(m).rjust(2,'0'),str(s).rjust(2,'0'),sep=':')
