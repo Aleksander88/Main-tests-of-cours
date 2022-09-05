@@ -1,0 +1,18 @@
+a,b,c=list (map (int, input ( ).split()))
+if a>b>c:
+print(a-c)
+else:
+if a<b<c:
+print (c-a)
+else:
+if b>a>c:
+print (b-c)
+else:
+if b>c>a:
+print (b-a)
+else:
+if a>c>b:
+print (a-b)
+else:
+if c>a>b:
+print(c-b)
