@@ -1,0 +1,7 @@
+a,b = map(float,input().split())
+count=0
+while a < b:
+    nextday = a * 0.15
+    a += nextday
+    count += 1
+print(count+1)
