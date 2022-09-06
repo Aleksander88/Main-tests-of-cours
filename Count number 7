@@ -1,0 +1,6 @@
+a = int(input())
+i = 0
+for x in str(a):
+    if int(x) == 7:
+        i+=1
+print(i)
