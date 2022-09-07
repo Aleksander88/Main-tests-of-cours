@@ -1,0 +1,10 @@
+n = int(input())
+if n % 5 != 0 and n % 3 != 0:
+    print(n)
+elif n % 3 == 0:
+    if n % 5 == 0:
+        print('FizzBuzz')
+    else:
+        print('Fizz')
+else:
+    print('Buzz')
