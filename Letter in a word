@@ -1,0 +1,7 @@
+symbol = input()
+sentence = list(input().split())
+ 
+g = len(sentence)
+for i in range(g):
+    if symbol in sentence[i]:
+        print(sentence[i]) 
