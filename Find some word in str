@@ -1,0 +1,4 @@
+a = map(str,input().split())
+if 'some_word' in a:
+    print('YES')
+else:print('NO')
