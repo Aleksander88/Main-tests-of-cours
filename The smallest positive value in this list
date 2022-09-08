@@ -1,0 +1,10 @@
+a = list(map(int, input().split()))
+t = []
+n = len(a)
+for i in range(n):
+    if a[i] > 0:
+        t.append(a[i])
+if len(t) == 0:
+    print('Empty')
+else:
+    print(min(t))
