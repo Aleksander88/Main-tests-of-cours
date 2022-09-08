@@ -1,0 +1,5 @@
+a = str(input().lower())
+b = []                  
+for i in a:             
+    b.append(a.count(i))
+print(max(b)) 
