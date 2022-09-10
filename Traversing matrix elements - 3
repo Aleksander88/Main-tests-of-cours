@@ -1,0 +1,8 @@
+n,e =map(int,input().split())
+m=[]
+for i in range(n):
+    m.append(list(map(int,input().split())))
+for a in range(n):
+    for s in range(e-1,-1,-1):
+        print(m[a][s], end=' ')
+    print()
