@@ -1,0 +1,20 @@
+a=[]
+n=0
+for i in range(5):
+    a.append(list(map(int,input().split())))
+for s in range(5):
+    for d in range(5):
+       if a[s][d]>0 and a[s][d] !=a[2][2]:
+           while s>2:
+               s-=1
+               n+=1
+           while s<2:
+               s+=1
+               n+=1
+           while d>2:
+               d-=1
+               n+=1
+           while d<2:
+               d+=1
+               n+=1
+print(n)
