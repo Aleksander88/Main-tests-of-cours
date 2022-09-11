@@ -1,0 +1,8 @@
+st = 'Create a list of the first letters of every word in this string'
+b=st.split()
+t=[]
+for i in range(len(b)):
+    for j in range(len(b)):
+        pass
+    t.append(b[i][0])
+print(t)
