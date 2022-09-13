@@ -1,0 +1,4 @@
+from string import ascii_uppercase as au
+a = int(input())
+a = [au[i] for i in range(a)]
+print(a)
