@@ -1,0 +1,9 @@
+def print_goods(*args):
+    s=[]
+    for i in args:
+        if isinstance(i,str) and len(i)>0:
+            s.append(i)
+    for index,value in enumerate(s, 1):
+            print(f"{index}. {value}")            
+    if len(s)==0:
+        print('No goods')
