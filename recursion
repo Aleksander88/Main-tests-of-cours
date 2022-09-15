@@ -1,0 +1,10 @@
+n = int(input())
+list = input().split()
+for i in range(len(list)):
+    list[i] = int(list[i])
+def zero(n):
+    if n != 0:
+        print(list[n-1], end=' ')
+        zero(n - 1)
+        
+zero(len(list)) 
