@@ -1,0 +1,9 @@
+def flatten(listNum, newList=None):
+    for n in listNum:
+        if newList is None:
+            newList = []
+        if type(n) is int:
+            newList.append(n)
+        else:
+            newList = newList + flatten(n)
+    return newList
